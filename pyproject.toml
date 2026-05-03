@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=77.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "osrs-anomaly-ml"
+version = "1.0"
+readme = "README.md"
+authors = [
+    { name = "NotADucc" }
+]
+license = "AGPL-3.0"
+requires-python = ">=3.12"
+dependencies = []  
+
+[project.urls]
+Homepage = "https://github.com/NotADucc/Bachelorproef-2526-ml"
+Repository = "https://github.com/NotADucc/Bachelorproef-2526-ml"
+Issues = "https://github.com/NotADucc/Bachelorproef-2526-ml/issues"
+
+[tool.setuptools]
+packages = ["osrs_anomaly_ml"]
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }

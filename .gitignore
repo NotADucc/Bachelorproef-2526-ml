@@ -1,0 +1,10 @@
+.sesskey
+__pycache__/
+
+*.egg-info/
+*.egg
+
+**.csv
+uv.lock
+
+.env

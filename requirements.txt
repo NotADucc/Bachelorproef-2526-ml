@@ -1,0 +1,14 @@
+python-fasthtml==0.12.48
+monsterui==1.0.44
+pymongo==4.16.0
+starlette==0.52.1
+pandas==2.2.3
+seaborn==0.13.2
+scikit-learn==1.6.1
+tqdm==4.67.1
+ipykernel==7.2.0
+
+osrs-hiscores-scrape @ git+https://github.com/NotADucc/osrs-hiscores-scrape.git@453689143eea38a2b6c22d076adab02900097821
+aiohttp==3.12.15
+fake-useragent==2.2.0
+psutil==7.0.0

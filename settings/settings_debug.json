@@ -1,0 +1,52 @@
+{
+   "isolation_forest":{
+      "n_estimators":[
+         100
+      ],
+      "contamination":[
+         0.0005
+      ],
+      "max_samples": [
+         "auto"
+      ],
+      "max_features": [
+         0.5
+      ]
+   },
+   "lof":{
+      "n_neighbors":[
+         10
+      ],
+      "contamination":[
+         0.0005
+      ],
+      "metric": ["euclidean", "manhattan"],
+      "novelty":[
+         true
+      ]
+   },
+   "oneclass_svm":{
+      "nu":[
+         0.0005
+      ],
+      "kernel":[
+         "rbf"
+      ],
+      "gamma":[
+         "scale"
+      ]
+   },
+   "elliptic_envelope_pca":{
+      "contamination":[
+         0.0005
+      ],
+      "support_fraction":[
+         null,
+         0.7
+      ]
+   },
+   "dbscan": {
+    "eps": [2.0, 3.0, 6.0, 7.0, 8.0, 8.5],
+    "min_samples": [3, 5, 10]
+  }
+}
